@@ -46,11 +46,12 @@ header {
             display: block;
             padding: .5em 1em;
             text-align: center;
-            border-bottom: 1px solid $light-grey;
+            border-bottom: 3px dashed $main-color;
             text-decoration: none;
+            background-color:$bg-color;
         }
         &:first-child a{
-            border-top: 1px solid $light-grey;
+            border-top: 3px dashed $main-color;
         }
     }
 }
